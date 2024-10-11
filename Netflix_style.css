@@ -1,50 +1,57 @@
-h1{
-    width:100px;
-    
-
-}
-body{
-    background-image: url("https://wallpapercave.com/wp/wp6889129.jpg");
-}
-#language{
-    background-color: aquamarine;
-    width:75px;
-    margin-left: 1100px;
-    margin-bottom: 100px;
-    
-}
-#butt{
-    color:aliceblue;
-    background-color:red;
-    width:80px;
-}
-#one{
-    /* border-width:20px;
-    border-style:ridge;
-    border-color:aliceblue;
-    /* border-radius:10%; */
-    padding:10px;
-     margin-right: 24px;  
-    
-    
-}
-select{
+h1 {
     width: 100px;
 }
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp6889129.jpg");
+    background-size: cover;
+    color: aliceblue;
+}
+
+#language {
+    background-color: aquamarine;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+#butt {
+    color: aliceblue;
+    background-color: red;
+    width: 80px;
+}
+
+#one {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin-inline: transparent;
+    
+}
+
 #email {
     margin-left: 400px;
     margin-bottom: 20px;
     padding: 10px;
-    width: 300px; /* Adjust width as needed */
+    width: 300px;
     font-size: 16px;
-    justify-content: center;
-    background-color:transparent;
-    color:aliceblue;
-    border-style: solid black;
-    text-decoration: solid;
     text-align: center;
+    background-color: transparent;
+    color: aliceblue;
+    border: solid 1px black;
 }
-#sub{
-    color:white;
-    background-color:red;
+
+#sub {
+    color: white;
+    background-color: red;
+    margin-left: 10px;
 }
+#two{
+    background-color: transparent;
+    margin-right: 30px;
+}
+
+
+

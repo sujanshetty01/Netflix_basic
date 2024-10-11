@@ -2,39 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Netflix_style.css">
 </head>
 <body>
 
-    <h1 >
-        <img width="100" src="https://th.bing.com/th/id/R.68c5f86637cfded8c97b2664df40d747?rik=DD4gMOSzOIQMew&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f05%2fColor-Netflix-Logo.jpg&ehk=wgUIWAR8YtuHeFBUuyx6VLzR2obsvwk6BrmndtVhlkw%3d&risl=&pid=ImgRaw&r=0">
+    <h1>
+        <img width="100" src="https://th.bing.com/th/id/R.68c5f86637cfded8c97b2664df40d747?rik=DD4gMOSzOIQMew&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f05%2fColor-Netflix-Logo.jpg&ehk=wgUIWAR8YtuHeFBUuyx6VLzR2obsvwk6BrmndtVhlkw%3d&risl=&pid=ImgRaw&r=0" alt="Netflix Logo">
     </h1>
+    
     <select name="language" id="language">
         <option value="English">English</option>
         <option value="Hindi">Hindi</option>
-        <option value="kannada">kannada</option>
+        <option value="kannada">Kannada</option>
     </select>
-    <button id="butt" >Sign in</button>
+    
+    <button id="butt">Sign in</button>
     <br>
-    <input id="email" type="text" placeholder=" Email address">
+    
+    <input id="email" type="text" placeholder="Email address">
     <button id="sub" type="submit">Get Started</button>
-    <button type="reset">reset</button>
+    <button type="reset">Reset</button>
+    
     <br>
-    <hr>
-    <button>
-        <img id="one" height=200 src="https://assets-in.bmscdn.com/discovery-catalog/events/et00409439-nzlplvmnfp-landscape.jpg">
-    </button> 
-    <button >
-        <img id="one" height=200 src="https://cdn.kalakkalcinema.com/wp-content/uploads/2024/02/The-Greatest-of-All-Time-Movie-First-Look-jpeg.webp">
-     </button>
-     <button>
-        <img id="one" height=200 src="https://www.m9.news/wp-content/uploads/2024/06/kalki-2898-ad-second-trailer.jpg"> 
-     </button>
-     <button>
-        <img id="one" height=200 src="https://www.bollywoodhungama.com/wp-content/uploads/2022/04/K.G.F-%E2%80%93-Chapter-2-15.jpg">
-     </button>
+    
+
+    <!-- Wrap all buttons containing images in a flex container -->
+    <div class="image-row">
+        <button id="two">
+            <img id="one" height="200" width="300"src="https://assets-in.bmscdn.com/discovery-catalog/events/et00409439-nzlplvmnfp-landscape.jpg" alt="Movie Image 1">
+        </button> 
+        <button id="two">
+            <img id="one" height="200" width="300" src="https://cdn.kalakkalcinema.com/wp-content/uploads/2024/02/The-Greatest-of-All-Time-Movie-First-Look-jpeg.webp" alt="Movie Image 2">
+        </button>
+        <button id="two">
+            <img id="one" height="200" width="300" src="https://www.m9.news/wp-content/uploads/2024/06/kalki-2898-ad-second-trailer.jpg" alt="Movie Image 3"> 
+        </button>
+        <button id="two">
+            <img id="one" height="200" width="300" src="https://www.bollywoodhungama.com/wp-content/uploads/2022/04/K.G.F-%E2%80%93-Chapter-2-15.jpg" alt="Movie Image 4">
+        </button>
+    </div>
 </body>
 </html>
